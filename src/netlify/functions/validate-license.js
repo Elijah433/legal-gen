@@ -1,7 +1,7 @@
 exports.handler = async (event) => {
 
   const allowedOrigins = [
-    "https://your-site.netlify.app",
+   "https://legal-gen-pro.netlify.app", // Your actual URL!
     "http://localhost:3000",
     "http://localhost:8888"
   ];
