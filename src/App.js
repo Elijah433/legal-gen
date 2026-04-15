@@ -50,6 +50,7 @@ function App() {
       if (result.success) {
         setIsPro(true);
         localStorage.setItem("legalGen_Pro_Key", key);
+        generateText(formData, true);
         return true;
       }
       localStorage.removeItem("legalGen_Pro_Key");
