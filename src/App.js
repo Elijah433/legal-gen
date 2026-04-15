@@ -62,7 +62,7 @@ function App() {
     } finally {
       setIsValidating(false);
     }
-  }, []);
+  }, [formData, generateText]);
 
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
